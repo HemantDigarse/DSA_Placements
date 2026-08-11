@@ -4,12 +4,13 @@ import java.util.PriorityQueue;
 
 public class MinHeap {
     public static void main(String[] args) {
+        int[] arr={10,2,1,8,9,5};
         PriorityQueue<Integer> pq=new PriorityQueue<>();
-        int[] arr={10,5,2,6,7,1,9};
         for(int num:arr){
-            pq.offer(num);
+            pq.add(num);
         }
         System.out.println(pq);
+
     }
 }
-//In Java By Default PriorityQueue is MinHeap
+//MinHeap->By Default PriorityQueue is in Mean Heap in java
