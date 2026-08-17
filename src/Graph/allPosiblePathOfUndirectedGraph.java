@@ -30,7 +30,6 @@ public class allPosiblePathOfUndirectedGraph {
         ArrayList<Character> list=map.get(src);
         for(char chr:list){
             if(!(vis.contains(chr))){
-                vis.add(chr);
                 dfs(chr,map,des,s+"-->"+chr,vis);
                 vis.remove(chr);
             }
