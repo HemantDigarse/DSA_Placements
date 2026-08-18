@@ -17,6 +17,6 @@ public class UndirectedGraph {
             map.put(u,map.getOrDefault(u,new ArrayList<>()));
             map.get(u).add(v);
         }
-        System.out.println(map);
+//        System.out.println(map);
     }
 }

@@ -44,9 +44,9 @@ public class printAllPosiblePathWithMinAndMaxSumPath {
         for(char[] chr:l){
             char updateSrc=chr[0];
             char w=chr[1];
-            int weigth=w-'0';
+            int wgt=w-'0';
             if(!vis.contains(updateSrc)){
-                dfs(updateSrc,des,map,s+"-->"+updateSrc,sum+weigth,vis);
+                dfs(updateSrc,des,map,s+"-->"+updateSrc,sum+wgt,vis);
                 vis.remove(updateSrc);
             }
         }
