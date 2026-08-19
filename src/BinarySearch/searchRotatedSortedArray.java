@@ -8,7 +8,7 @@ public class searchRotatedSortedArray {
         int[] arr={50,60,70,80,90,100,10,20,30,40};
         int target=sc.nextInt();
         int idx=findIndexTarget(arr,target);
-        System.out.println(idx);
+        System.out.println(idx);;
 
     }
     public static int findIndexTarget(int[] nums,int target){
